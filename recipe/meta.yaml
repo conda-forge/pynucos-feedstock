@@ -1,5 +1,5 @@
 {% set name = "pynucos" %}
-{% set version = "2.7.4" %}
+{% set version = "2.7.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://github.com/NOAA-ORR-ERD/PyNUCOS/archive/v{{ version }}.tar.gz
-  sha256: b664ad941a42a914be24d97d80950c254fca312e07245bf39545f4ad890bd86c
+  sha256: fa8071f3fe06984163c6f5e2996295aa32791bca3691ea9920bc17b713ae38f8
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -26,14 +26,13 @@ test:
     - pytest
   imports:
     - unit_conversion
-  commands:
-    pytest --pyargs unit_conversion
+  commands: pytest --pyargs unit_conversion
 
 about:
   home: https://github.com/NOAA-ORR-ERD/PyNUCOS
   license: unlicense
   license_file: LICENSE.txt
-  summary: 'Python NOAA Unit Converter for Oil Spills'
+  summary: Python NOAA Unit Converter for Oil Spills
   description: |
     Python NOAA Unit Converter for Oil Spills provides a python package for
     doing physical unit conversion. It includes the odd units (API gravity,
