@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/NOAA-ORR-ERD/PyNUCOS/archive/v{{ version }}.tar.gz
-  sha256: fa8071f3fe06984163c6f5e2996295aa32791bca3691ea9920bc17b713ae38f8
+  sha256: ad53f7e5289b13c09948a3fce062d5183d11cf00e7bcdc85f68c5d8962960880
 
 build:
   noarch: python
