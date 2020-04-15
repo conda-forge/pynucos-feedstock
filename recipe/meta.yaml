@@ -1,5 +1,5 @@
 {% set name = "pynucos" %}
-{% set version = "2.8.0" %}
+{% set version = "2.8.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/NOAA-ORR-ERD/PyNUCOS/archive/v{{ version }}.tar.gz
-  sha256: f560ab3f7215973e72e51115e639d7810629147bc36f784e315d517e22ff7e59
+  sha256: a6a5466faa6ac83db5bd060ff0cdaf62dd9ba486b0675135d1e8612ceb72b360
 
 build:
   noarch: python
@@ -30,7 +30,7 @@ test:
 
 about:
   home: https://github.com/NOAA-ORR-ERD/PyNUCOS
-  license: unlicense
+  license: CC0-1.0
   license_file: LICENSE.txt
   summary: Python NOAA Unit Converter for Oil Spills
   description: |
