@@ -3,7 +3,7 @@ About pynucos
 
 Home: https://github.com/NOAA-ORR-ERD/PyNUCOS
 
-Package license: unlicense
+Package license: CC0-1.0
 
 Feedstock license: BSD 3-Clause
 
