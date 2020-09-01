@@ -5,7 +5,7 @@ Home: https://github.com/NOAA-ORR-ERD/PyNUCOS
 
 Package license: CC0-1.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Python NOAA Unit Converter for Oil Spills
 
