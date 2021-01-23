@@ -3,11 +3,13 @@ About pynucos
 
 Home: https://github.com/NOAA-ORR-ERD/PyNUCOS
 
-Package license: unlicense
+Package license: CC0-1.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pynucos-feedstock/blob/master/LICENSE.txt)
 
 Summary: Python NOAA Unit Converter for Oil Spills
+
+Development: https://github.com/NOAA-ORR-ERD/PyNUCOS
 
 Python NOAA Unit Converter for Oil Spills provides a python package for
 doing physical unit conversion. It includes the odd units (API gravity,
