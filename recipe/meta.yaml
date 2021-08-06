@@ -1,5 +1,5 @@
 {% set name = "pynucos" %}
-{% set version = "2.10.1" %}
+{% set version = "2.11.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/NOAA-ORR-ERD/PyNUCOS/archive/v{{ version }}.tar.gz
-  sha256: 61d1901e33c62040be107493a2fe462a191d8eb06c0c15e6ba9e2c03882afc66
+  sha256: 9b4a932eb4d3fd650f8e70c63297ce128b4b360f14c732294f3bca707f6509b3
 
 
 build:
