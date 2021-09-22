@@ -27,7 +27,7 @@ test:
     - pytest
   imports:
     - unit_conversion
-  commands: pytest --pyargs unit_conversion
+  commands: pytest --pyargs nucos
 
 about:
   home: https://github.com/NOAA-ORR-ERD/PyNUCOS
